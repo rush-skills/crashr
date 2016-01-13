@@ -81,7 +81,7 @@ $(document).on('ready',function(){
 		setTimeout(_ElementOverflow, 1);
 	}
 	function _Request(){
-		$.get("http://google.com");
+		$.get("http://iiitd.ac.in");
 	}
 	function _RequestOverflow() {
 		while(true){
