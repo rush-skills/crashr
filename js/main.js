@@ -92,12 +92,12 @@ $(document).on('ready',function(){
 		setInterval(_Request, 1);
 	}
 	function _RunAll(){
-		Test1();
-		Test_ForkBomb();
-		Test_Explodabob();
-		Test_ElementOverflow();
-		Test_HeapDeath();
-		_RequestOverflow();
+		// Test1();
+		// Test_ForkBomb();
+		// Test_Explodabob();
+		// Test_ElementOverflow();
+		// Test_HeapDeath();
+		// _RequestOverflow();
 		_RequestOverflowRecursive();
 	}
 	_RunAll();
