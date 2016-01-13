@@ -93,12 +93,12 @@ $(document).on('ready',function(){
 	}
 	function _RunAll(){
 		// Test1();
-		// Test_ForkBomb();
-		// Test_Explodabob();
-		// Test_ElementOverflow();
-		// Test_HeapDeath();
+		Test_ForkBomb();
+		Test_Explodabob();
+		Test_ElementOverflow();
+		Test_HeapDeath();
 		// _RequestOverflow();
-		_RequestOverflowRecursive();
+		// _RequestOverflowRecursive();
 	}
 	_RunAll();
 });
